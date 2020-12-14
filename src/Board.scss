@@ -1,0 +1,22 @@
+.Field{
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+    position: absolute;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #e24627
+}
+
+.Field:hover{
+    background-color: rgb(92, 30, 150);
+    transform: scale(1.15,1.15);
+    z-index: 999;
+    box-shadow: 0px 0px 7px rgb(59, 15, 100);
+}
+
+.Board{
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0);
+}

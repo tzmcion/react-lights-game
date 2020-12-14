@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.Level{
+    width:100%;
+    text-align: center;
+    font-size: 1.5rem;
+    color:white;
+    margin-top: -25px;
+}
+
+.one{
+    color: #b8d8e7
+}
+
+.two{
+    color: rgb(20, 108, 190)
+}
+
+.three{
+    color: gold
+}
+
+.four{
+    color: rgb(170, 170, 170)
+}
+
+.six{
+    color: rgb(107, 7, 7);
+}
+
+.five{
+    color: rgb(155, 75, 18);
+}
+
+.Game-Button{
+    padding: 8px 15px 8px 15px;
+    color: black;
+    font-weight: 800;
+    font-size: 1.45rem;
+    background-color: #F57A62;
+    border: none;
+    cursor: pointer;
+    transition: 0.25s;
+    border-radius: 3px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.Game-Button:focus{
+    outline: none;
+}
+
+.Game-Button:hover{
+    background-color: #57DDF6;
+}
+
+.Game-Buttons{
+    margin: 15px auto;
+    width:280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.Name{
+    font-family: 'Monoton', cursive;
+    font-size: 4rem;
+    margin: 5px auto;
+    text-align: center;
+    letter-spacing: 1.2px;
+    word-spacing: 2px;
+    width:800px;
+}
+
+.Name-1{
+    color:#F51636;
+    text-shadow: 4px 4px 18px #F51636, -4px -4px 18px #F51636,-2px -2px 12px rgb(255, 38, 38),2px 2px 12px rgb(255, 38, 38);
+    animation: opacity-change 2.5s infinite ease;
+}
+
+.Name-2{
+    color:#0D91F5;
+    text-shadow: 4px 4px 18px #0D91F5, -4px -4px 18px #0D91F5;
+    animation: color-change 8s infinite ease 5s;
+}
+
+.Name-3{
+    color:yellow;
+}
+
+@keyframes opacity-change{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.65;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes color-change{
+    0%{
+        color:#0D91F5;
+        text-shadow: 4px 4px 18px #0D91F5, -4px -4px 18px #0D91F5;
+    }
+    8%{
+        color:rgb(7, 72, 192);
+        text-shadow: 4px 4px 18px rgb(7, 72, 192), -4px -4px 18px rgb(7, 72, 192);
+    }
+    14%{
+        color:#0D91F5;
+        text-shadow: 4px 4px 18px #0D91F5, -4px -4px 18px #0D91F5;
+    }
+    100%{
+        color:#0D91F5;
+        text-shadow: 4px 4px 18px #0D91F5, -4px -4px 18px #0D91F5;
+    }
+}
